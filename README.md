@@ -90,6 +90,18 @@ Side projects — small tools that scratch a personal itch.
 
 ---
 
+### 🎮 Vibe
+
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="coding vibe"/>
+</p>
+
+<p align="center">
+  <em>build → ship → break → fix → repeat</em>
+</p>
+
+---
+
 ### 📊 Stats
 
 <p align="center">
