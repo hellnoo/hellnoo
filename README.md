@@ -1,7 +1,10 @@
+<!-- ============================================================
+     hellnoo / hellnoo  -  GitHub Profile README
+     ============================================================ -->
 
-<!-- ============== HEADER BANNER ============== -->
+<!-- HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=furqan&fontSize=72&fontAlignY=38&fontColor=ffffff&desc=indie%20builder%20%C2%B7%20AI%20tools%20for%20creators&descSize=18&descAlign=50&descAlignY=62&animation=fadeIn" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=240&section=header&text=furqan&fontSize=80&fontAlignY=40&fontColor=ffffff&desc=indie%20builder%20%C2%B7%20AI%20tools%20for%20creators&descSize=20&descAlign=50&descAlignY=63&animation=fadeIn" alt="header"/>
 </p>
 
 <p align="center">
@@ -10,66 +13,80 @@
   </a>
   <img src="https://img.shields.io/github/followers/hellnoo?style=for-the-badge&color=ff6b6b&label=FOLLOWERS" alt="followers"/>
   <img src="https://img.shields.io/badge/Indonesia-%F0%9F%87%AE%F0%9F%87%A9-red?style=for-the-badge" alt="indonesia"/>
+  <img src="https://img.shields.io/badge/status-shipping-brightgreen?style=for-the-badge" alt="status"/>
 </p>
 
 ---
 
-### 👋 Hi, I'm **furqan**
+### Hi, I'm **furqan**
 
 ```ts
 const me = {
   role:        "indie builder",
   location:    "Indonesia",
+  currently:   "auto-clipper — AI video to Shorts pipeline",
   building:    ["auto-clipper", "small SaaS for local businesses"],
   learning:    ["LLM agents", "ffmpeg pipelines", "computer vision"],
   philosophy:  "ship small, iterate fast, free where possible",
+  openTo:      ["collabs", "feedback", "bug reports"],
 };
 ```
 
-🎬 Currently shipping **[auto-clipper](https://github.com/hellnoo/auto-clipper)** — a local-first, free AI tool that turns long videos into TikTok / Reels / Shorts. Whisper + Claude + ffmpeg, no SaaS subscription needed.
+> Currently shipping **[auto-clipper](https://github.com/hellnoo/auto-clipper)** — a **local-first, free** AI tool that turns long videos into TikTok / Reels / Shorts. Whisper + Claude + ffmpeg, zero SaaS subscription needed.
 
 ---
 
-### 🚀 Featured Projects
+### Currently Building
+
+| Project | Status | What |
+|---|---|---|
+| [auto-clipper](https://github.com/hellnoo/auto-clipper) | `active` | yt-dlp → Whisper → Claude → ffmpeg → 9:16 captions + face crop + auto-upload |
+| [pos-kedaikas](https://github.com/hellnoo/pos-kedaikas) | `stable` | Browser-based POS / kasir untuk kedai & warung kecil |
+| [hallu-loyalty](https://github.com/hellnoo/hallu-loyalty) | `stable` | Loyalty & member-card system untuk bisnis lokal |
+| [sapulidi](https://github.com/hellnoo/sapulidi) | `side` | Kecil tapi berguna — scratching a personal itch |
+
+---
+
+### Featured Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🎬 [auto-clipper](https://github.com/hellnoo/auto-clipper)
+#### [auto-clipper](https://github.com/hellnoo/auto-clipper)
 
-Pipeline: yt-dlp → faster-whisper (GPU) → Claude/Groq → ffmpeg → 9:16 burned captions + face-aware crop + per-speaker color + auto-upload to YouTube.
+Local-first AI video pipeline. Drop a long YouTube URL, get back a 9:16 short with burned captions, per-speaker colour, face-aware crop, and auto-upload to YouTube.
 
-`python` `fastapi` `whisper` `ffmpeg` `claude`
+**Stack:** `python` `fastapi` `whisper` `ffmpeg` `claude`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🛒 [pos-kedaikas](https://github.com/hellnoo/pos-kedaikas)
+#### [pos-kedaikas](https://github.com/hellnoo/pos-kedaikas)
 
-Aplikasi kasir (POS) buat kedai / warung kecil. Lightweight, browser-based, no install pelik.
+Aplikasi kasir (POS) untuk kedai / warung kecil. Lightweight, browser-based, no install pelik. Boleh jalan offline.
 
-`html` `javascript`
+**Stack:** `html` `javascript`
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🏆 [hallu-loyalty](https://github.com/hellnoo/hallu-loyalty)
+#### [hallu-loyalty](https://github.com/hellnoo/hallu-loyalty)
 
-Loyalty / member-card system buat bisnis lokal.
+Loyalty & member-card system untuk bisnis lokal. Mudah digunakan, tak perlu app.
 
-`html` `javascript`
+**Stack:** `html` `javascript`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🧹 [sapulidi](https://github.com/hellnoo/sapulidi) · [karang](https://github.com/hellnoo/karang)
+#### [sapulidi](https://github.com/hellnoo/sapulidi) & [karang](https://github.com/hellnoo/karang)
 
-Side projects — small tools that scratch a personal itch.
+Side projects — small tools built because I needed them. Simple, fast, no bloat.
 
-`html` `web`
+**Stack:** `html` `web`
 
 </td>
 </tr>
@@ -77,36 +94,38 @@ Side projects — small tools that scratch a personal itch.
 
 ---
 
-### 🧰 Tech Stack
+### Tech Stack
 
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,js,ts,html,css,tailwind,react,sqlite,docker,git,github,vscode,linux&perline=15" alt="stack"/>
 </p>
 
-**Daily drivers:** Python · FastAPI · ffmpeg · SQLite · Docker
-**Frontend:** Vanilla JS · Tailwind · occasional React
-**AI / ML:** faster-whisper · OpenCV · Anthropic Claude · OpenRouter · Groq
-**Infra:** local-first → HuggingFace Spaces / Render when needed
+<table>
+<tr>
+<td><strong>Daily drivers</strong></td>
+<td>Python · FastAPI · ffmpeg · SQLite · Docker</td>
+</tr>
+<tr>
+<td><strong>Frontend</strong></td>
+<td>Vanilla JS · Tailwind · occasional React</td>
+</tr>
+<tr>
+<td><strong>AI / ML</strong></td>
+<td>faster-whisper · OpenCV · Anthropic Claude · OpenRouter · Groq</td>
+</tr>
+<tr>
+<td><strong>Infra</strong></td>
+<td>local-first → HuggingFace Spaces / Render when needed</td>
+</tr>
+</table>
 
 ---
 
-### 🎮 Vibe
+### Stats
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="coding vibe"/>
-</p>
-
-<p align="center">
-  <em>build → ship → break → fix → repeat</em>
-</p>
-
----
-
-### 📊 Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=hellnoo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0f&title_color=22d3ee&icon_color=e879f9&text_color=e8e8f0"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hellnoo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0f&title_color=22d3ee&text_color=e8e8f0&langs_count=8"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=hellnoo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0f&title_color=22d3ee&icon_color=e879f9&text_color=e8e8f0&rank_icon=github"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hellnoo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0f&title_color=22d3ee&text_color=e8e8f0&langs_count=8"/>
 </p>
 
 <p align="center">
@@ -114,25 +133,35 @@ Side projects — small tools that scratch a personal itch.
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hellnoo&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" alt="trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=hellnoo&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" alt="trophies"/>
 </p>
 
 ---
 
-### 🐍 Contribution Snake
+### Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hellnoo/hellnoo/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hellnoo/hellnoo/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hellnoo/hellnoo/output/github-contribution-grid-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/hellnoo/hellnoo/output/github-contribution-grid-snake-dark.svg"/>
+  </picture>
 </p>
 
 ---
 
-### 💬 Reach me
+### Reach me
 
-- 🐙 GitHub Issues on any of my repos
-- 📨 Open a Discussion on the project you're interested in
-- 🎬 Try [auto-clipper](https://github.com/hellnoo/auto-clipper) and tell me what breaks
+- **GitHub Issues** on any of my repos — fastest way to get my attention
+- **Discussions** — open a Discussion on the project you are curious about
+- **Try it** — clone [auto-clipper](https://github.com/hellnoo/auto-clipper) and tell me what breaks
+
+---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=80&section=footer"/>
+  <em>build → ship → break → fix → repeat</em>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" alt="footer"/>
 </p>
